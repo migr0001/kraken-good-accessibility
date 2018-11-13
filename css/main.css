@@ -3,6 +3,12 @@ html {
   color: #222;
 }
 
+@media print {
+  #banner, #navigation {
+    color: #000;
+  }
+}
+
 .max-length {
   max-width: 42em;
 }
