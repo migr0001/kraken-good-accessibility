@@ -4,9 +4,11 @@ html {
 }
 
 @media print {
-  #banner, #navigation {
-    color: #000;
+
+  .inset-img {
+    border-color: #000;
   }
+
 }
 
 .max-length {
